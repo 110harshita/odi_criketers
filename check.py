@@ -4,8 +4,7 @@ import urllib.request
 import pandas as pd
 import pip
 import linecache
-import time
-from time import gmtime, strftime
+
 def max(line):
     str='https://en.wikipedia.org/wiki/List_of_'+line+'_ODI_cricketers'
     print(str)
